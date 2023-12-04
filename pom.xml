@@ -4,9 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>org.example.JSONfuse</groupId>
     <artifactId>JSONfuse</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub otovic Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/otovic/JSONfuse</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
